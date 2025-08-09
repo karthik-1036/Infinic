@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Infinic Media — Micro‑Influencer Marketing Agency</title>
+    <meta name="description" content="Infinic Media helps brands scale with high‑performing micro‑influencer campaigns. Launch in days, not weeks. Creators get briefs, support, and more views." />
+    <meta property="og:title" content="Infinic Media — Micro‑Influencer Marketing Agency" />
+    <meta property="og:description" content="Reach more people for less with micro‑influencer campaigns. We help brands win and creators grow." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#00C853" />
+
+    <!-- Tailwind CSS (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // Tailwind on-the-fly config for brand palette
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                green: '#00C853', // pulled from your logo hue
+                black: '#0B0B0B',
+              },
+            },
+            boxShadow: {
+              glow: '0 0 0 6px rgba(0, 200, 83, 0.25)'
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Optional: smooth font rendering */
+      html { scroll-behavior: smooth; }
+    </style>
+  </head>
+  <body class="bg-brand-black text-white selection:bg-brand-green selection:text-black">
+    <!-- Navigation -->
+    <header class="top-0 left-0 right-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-black/60 bg-black/70 border-b border-white/5 w-full">
+        <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+          <a href="#top" class="flex items-center gap-3 group" aria-label="Infinic Media home">
+            <img src="assets/logo.png" alt="Infinic Media logo" class="hidden h-8 w-auto sm:block" onerror="this.style.display='none'" />
+            <div class="text-xl font-extrabold tracking-tight">
+              <span class="text-white">INFINIC</span><span class="text-brand-green">C</span><span class="text-white"> MEDIA</span>
+            </div>
+          </a>
+      
+          <div class="flex items-center gap-3">
+            <a href="#start-campaign"
+               class="inline-flex items-center justify-center rounded-full bg-brand-green px-4 py-2 text-sm font-semibold text-black shadow hover:shadow-glow focus:outline-none focus:ring-2 focus:ring-brand-green focus:ring-offset-2 focus:ring-offset-black transition">
+              Run a Campaign
+            </a>
+            <a href="https://forms.gle/2yJ5fpkLmYgGSKxD6" target="_blank" rel="noopener"
+               class="inline-flex items-center justify-center rounded-full bg-white px-4 py-2 text-sm font-semibold text-black shadow hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black transition">
+              Influencer Registration
+            </a>
+          </div>
+        </nav>
+      </header>
+      
+
+    <!-- Hero -->
+    <section id="top" class="relative overflow-hidden">
+      <div class="absolute inset-0 -z-10">
+        <div class="pointer-events-none absolute -left-40 top-0 h-80 w-80 rounded-full bg-brand-green/10 blur-3xl"></div>
+        <div class="pointer-events-none absolute -right-32 bottom-0 h-96 w-96 rounded-full bg-brand-green/10 blur-3xl"></div>
+      </div>
+
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
+        <div class="grid items-center gap-10 lg:grid-cols-2">
+          <div>
+            <p class="mb-3 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium text-white/70">
+              <span class="inline-block h-1.5 w-1.5 rounded-full bg-brand-green"></span>
+              Trusted micro‑influencer campaigns, launched in days
+            </p>
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-[1.05] tracking-tight">
+              Grow with hundreds of micro‑creators, not one expensive celebrity
+            </h1>
+            <p class="mt-6 text-lg text-white/80 max-w-xl">
+              Infinic Media turns your budget into scalable reach. Higher authenticity, better CPMs, more conversions.
+            </p>
+            <div class="mt-8 flex flex-wrap items-center gap-3">
+              <a href="#start-campaign" class="rounded-full bg-brand-green px-6 py-3 font-semibold text-black shadow hover:shadow-glow transition">Run a Campaign</a>
+              <a href="https://forms.gle/2yJ5fpkLmYgGSKxD6" target="_blank" rel="noopener" class="rounded-full bg-white px-6 py-3 font-semibold text-black shadow hover:shadow-lg transition">Influencer Registration</a>
+            </div>
+
+            <div class="mt-8 grid grid-cols-3 gap-6 max-w-lg">
+              <div>
+                <div class="text-3xl font-extrabold text-brand-green" data-counter="120">120+</div>
+                <div class="text-sm text-white/70">Active micro‑creators</div>
+              </div>
+              <div>
+                <div class="text-3xl font-extrabold text-brand-green" data-counter="18">18%</div>
+                <div class="text-sm text-white/70">Avg engagement uplift</div>
+              </div>
+              <div>
+                <div class="text-3xl font-extrabold text-brand-green" data-counter="4">4x</div>
+                <div class="text-sm text-white/70">Better CPM vs mega</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative">
+            <div class="aspect-[4/3] rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 to-transparent p-4 shadow-xl">
+              <div class="h-full w-full rounded-xl bg-black/50 grid place-items-center text-center">
+                <div class="max-w-sm">
+                  <div class="mx-auto mb-4 h-12 w-12 rounded-full bg-brand-green/20 grid place-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6 text-brand-green"><path d="M12 4a8 8 0 100 16 8 8 0 000-16zM6.343 6.343a8 8 0 1111.314 11.314A8 8 0 016.343 6.343z"/><path d="M9.172 14.828a4 4 0 115.656-5.656 4 4 0 01-5.656 5.656z"/></svg>
+                  </div>
+                  <p class="text-white/90 font-semibold">Creator‑led ad engine</p>
+                  <p class="mt-2 text-sm text-white/70">Briefs, content review, posting cadence, UGC licensing — handled end‑to‑end.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Why Micro > Mega (Light) -->
+    <section class="bg-white text-black">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+        <div class="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
+          <div>
+            <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Why micro‑influencer marketing beats one big name</h2>
+            <ul class="mt-6 space-y-4 text-lg">
+              <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-brand-green"></span><span><strong>Trust at scale</strong>: smaller audiences feel personal — comments and DMs actually get replies.</span></li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-brand-green"></span><span><strong>More touchpoints</strong>: dozens of creators, dozens of angles — your message travels further and sticks.</span></li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-brand-green"></span><span><strong>Lower CPM, higher ROAS</strong>: pay for performance, not fame. We optimize per post and per creator.</span></li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-brand-green"></span><span><strong>Creative diversity</strong>: different styles and niches unlock new pockets of demand.</span></li>
+            </ul>
+            <div class="mt-8 flex gap-3">
+              <a href="#start-campaign" class="rounded-full bg-brand-green px-6 py-3 font-semibold text-black shadow hover:shadow-glow transition">Run a Campaign</a>
+              <a href="#how" class="rounded-full border border-black/10 px-6 py-3 font-semibold text-black hover:bg-black/5 transition">How we work</a>
+            </div>
+          </div>
+
+          <div>
+            <!-- Simple visual comparison -->
+            <div class="rounded-2xl border border-black/10 p-6 shadow-sm">
+              <h3 class="font-semibold">Reach vs. Cost</h3>
+              <div class="mt-4 space-y-4">
+                <div>
+                  <div class="flex justify-between text-sm mb-1"><span>1 Mega Influencer</span><span>High Cost</span></div>
+                  <div class="h-3 w-full rounded-full bg-black/10">
+                    <div class="h-3 rounded-full bg-black/70" style="width: 42%"></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-sm mb-1"><span>40 Micro‑Creators</span><span>Lower Cost</span></div>
+                  <div class="h-3 w-full rounded-full bg-black/10">
+                    <div class="h-3 rounded-full bg-brand-green" style="width: 92%"></div>
+                  </div>
+                </div>
+              </div>
+              <p class="mt-4 text-sm text-black/70">Illustrative example: for the same budget, diversified micro‑campaigns deliver broader, more credible reach with better conversion.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: How We Work (Dark) -->
+    <section id="how" class="bg-brand-black text-white">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+        <div class="text-center max-w-3xl mx-auto">
+          <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">A full‑service engine for creators and brands</h2>
+          <p class="mt-4 text-white/80">Briefing, creator sourcing, contracts, content strategy, posting schedule, UGC licensing, performance tracking — end to end.</p>
+        </div>
+
+        <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="rounded-xl border border-white/10 bg-white/5 p-6">
+            <div class="h-9 w-9 rounded-md bg-brand-green/20 text-brand-green grid place-items-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"><path d="M4.5 6.75A.75.75 0 015.25 6h13.5a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75H5.25a.75.75 0 01-.75-.75V6.75z"/><path d="M3 6.75A2.25 2.25 0 015.25 4.5h13.5A2.25 2.25 0 0121 6.75v10.5A2.25 2.25 0 0118.75 19.5H5.25A2.25 2.25 0 013 17.25V6.75z"/></svg>
+            </div>
+            <h3 class="font-semibold">Strategy & creative</h3>
+            <p class="mt-2 text-sm text-white/80">Messaging pillars, hooks, CTAs, and a content calendar tailored to your buyer journey.</p>
+          </div>
+          <div class="rounded-xl border border-white/10 bg-white/5 p-6">
+            <div class="h-9 w-9 rounded-md bg-brand-green/20 text-brand-green grid place-items-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="h-5 w-5"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zM7 12l3 3 7-7"/></svg>
+            </div>
+            <h3 class="font-semibold">Creator sourcing</h3>
+            <p class="mt-2 text-sm text-white/80">We recruit vetted micro‑creators in your niche and handle contracting and briefing.</p>
+          </div>
+          <div class="rounded-xl border border-white/10 bg-white/5 p-6">
+            <div class="h-9 w-9 rounded-md bg-brand-green/20 text-brand-green grid place-items-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"><path d="M3 6a1 1 0 011-1h16a1 1 0 011 1v7a4 4 0 01-4 4H7a4 4 0 01-4-4V6z"/><path d="M7 17h10v2a1 1 0 01-1 1H8a1 1 0 01-1-1v-2z"/></svg>
+            </div>
+            <h3 class="font-semibold">Production & approvals</h3>
+            <p class="mt-2 text-sm text-white/80">We review drafts, ensure brand safety, and schedule posts for momentum.</p>
+          </div>
+          <div class="rounded-xl border border-white/10 bg-white/5 p-6">
+            <div class="h-9 w-9 rounded-md bg-brand-green/20 text-brand-green grid place-items-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"><path d="M11 3a1 1 0 011 1v8h7a1 1 0 110 2h-8a1 1 0 01-1-1V4a1 1 0 011-1z"/></svg>
+            </div>
+            <h3 class="font-semibold">Measure & scale</h3>
+            <p class="mt-2 text-sm text-white/80">We track performance by creator, iterate hooks, and scale what converts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: For Brands (Light) -->
+    <section class="bg-white text-black">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+        <div class="grid gap-10 lg:grid-cols-2 lg:gap-16 items-start">
+          <div>
+            <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">For Brands</h2>
+            <p class="mt-4 text-lg">Reach more of the right people with authentic content that actually converts.</p>
+            <ul class="mt-6 grid gap-4">
+              <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-brand-green"></span><span>Launch in days with a ready creator bench.</span></li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-brand-green"></span><span>Creative angles tested in parallel for message‑market fit.</span></li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-brand-green"></span><span>Usage rights for top‑performing UGC to use in paid ads.</span></li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-brand-green"></span><span>Clear ROI dashboard: CPM, CTR, conversions, coupon sales.</span></li>
+            </ul>
+            <div class="mt-8 flex gap-3">
+              <a href="#start-campaign" class="rounded-full bg-brand-green px-6 py-3 font-semibold text-black shadow hover:shadow-glow transition">Run a Campaign</a>
+              <a href="#faq" class="rounded-full border border-black/10 px-6 py-3 font-semibold text-black hover:bg-black/5 transition">FAQs</a>
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-black/10 p-6">
+            <h3 class="font-semibold">Example Outcomes</h3>
+            <div class="mt-4 grid grid-cols-2 gap-6">
+              <div class="rounded-xl bg-black/5 p-4">
+                <div class="text-2xl font-extrabold">3.2x</div>
+                <div class="text-sm text-black/70">ROAS from UGC ads</div>
+              </div>
+              <div class="rounded-xl bg-black/5 p-4">
+                <div class="text-2xl font-extrabold">-41%</div>
+                <div class="text-sm text-black/70">Cost per add‑to‑cart</div>
+              </div>
+              <div class="rounded-xl bg-black/5 p-4">
+                <div class="text-2xl font-extrabold">+18%</div>
+                <div class="text-sm text-black/70">Engagement rate</div>
+              </div>
+              <div class="rounded-xl bg-black/5 p-4">
+                <div class="text-2xl font-extrabold">+62%</div>
+                <div class="text-sm text-black/70">Reach in new niches</div>
+              </div>
+            </div>
+            <p class="mt-4 text-sm text-black/70">Metrics are representative; actual results depend on product, offer, and seasonality.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: For Influencers (Dark) -->
+    <section class="bg-brand-black text-white">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+        <div class="grid gap-10 lg:grid-cols-2 lg:gap-16 items-start">
+          <div class="order-2 lg:order-1">
+            <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">For Influencers</h2>
+            <p class="mt-4 text-lg text-white/80">Grow your channel and your earnings with structured briefs and brand partners that fit.</p>
+            <ul class="mt-6 grid gap-4">
+              <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-brand-green"></span><span>Fair pay and fast approvals.</span></li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-brand-green"></span><span>Hook templates and content strategy support to boost views.</span></li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-brand-green"></span><span>Repeat collaborations when your content performs.</span></li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-brand-green"></span><span>Creative freedom with clear brand guardrails.</span></li>
+            </ul>
+            <div class="mt-8 flex gap-3">
+              <a href="https://forms.gle/2yJ5fpkLmYgGSKxD6" target="_blank" rel="noopener" class="rounded-full bg-white px-6 py-3 font-semibold text-black shadow hover:shadow-lg transition">Influencer Registration</a>
+              <a href="#top" class="rounded-full border border-white/15 px-6 py-3 font-semibold text-white hover:bg-white/5 transition">Back to top</a>
+            </div>
+          </div>
+          <div class="order-1 lg:order-2">
+            <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
+              <h3 class="font-semibold">What you get</h3>
+              <div class="mt-4 grid grid-cols-2 gap-6">
+                <div class="rounded-xl border border-white/10 p-4">
+                  <div class="text-2xl font-extrabold text-brand-green">Briefs</div>
+                  <div class="text-sm text-white/80">Clear deliverables and ideas.</div>
+                </div>
+                <div class="rounded-xl border border-white/10 p-4">
+                  <div class="text-2xl font-extrabold text-brand-green">Support</div>
+                  <div class="text-sm text-white/80">Editing and hook feedback.</div>
+                </div>
+                <div class="rounded-xl border border-white/10 p-4">
+                  <div class="text-2xl font-extrabold text-brand-green">Growth</div>
+                  <div class="text-sm text-white/80">More views, more deals.</div>
+                </div>
+                <div class="rounded-xl border border-white/10 p-4">
+                  <div class="text-2xl font-extrabold text-brand-green">Community</div>
+                  <div class="text-sm text-white/80">Join a network of creators.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: CTA (Light) -->
+    <section class="bg-white text-black">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+        <div class="rounded-2xl border border-black/10 p-8 sm:p-12 text-center bg-gradient-to-r from-white via-white to-brand-green/5">
+          <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Ready to scale with micro‑influencers?</h2>
+          <p class="mt-3 text-lg">Tell us about your brand — we’ll reply within 24 hours.</p>
+          <div class="mt-6 flex flex-wrap justify-center gap-3">
+            <a href="#start-campaign" class="rounded-full bg-brand-green px-6 py-3 font-semibold text-black shadow hover:shadow-glow transition">Run a Campaign</a>
+            <a href="https://forms.gle/2yJ5fpkLmYgGSKxD6" target="_blank" rel="noopener" class="rounded-full bg-white px-6 py-3 font-semibold text-black shadow hover:shadow-lg transition">Influencer Registration</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ (Dark) -->
+    <section id="faq" class="bg-brand-black text-white">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-center">FAQs</h2>
+        <div class="mt-10 grid gap-6 md:grid-cols-2">
+          <div class="rounded-xl border border-white/10 bg-white/5 p-6">
+            <h3 class="font-semibold">How fast can we launch?</h3>
+            <p class="mt-2 text-white/80">Most campaigns go live within 7–10 days after brief approval.</p>
+          </div>
+          <div class="rounded-xl border border-white/10 bg-white/5 p-6">
+            <h3 class="font-semibold">Which platforms?</h3>
+            <p class="mt-2 text-white/80">Short‑form first: Instagram Reels and YouTube Shorts, We also support long‑form and static as needed.</p>
+          </div>
+          <div class="rounded-xl border border-white/10 bg-white/5 p-6">
+            <h3 class="font-semibold">How do you measure success?</h3>
+            <p class="mt-2 text-white/80">We track reach, saves, shares, CTR, conversions, and coupon/revenue attribution when applicable.</p>
+          </div>
+          <div class="rounded-xl border border-white/10 bg-white/5 p-6">
+            <h3 class="font-semibold">Minimum budget?</h3>
+            <p class="mt-2 text-white/80">We tailor scope to goals. Starter pilots are available for fast learning.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer (Light on dark border) -->
+    <footer class="border-t border-white/10 bg-black">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div class="text-sm text-white/70">© <span id="year"></span> Infinic Media. All rights reserved.</div>
+        <div class="flex items-center gap-4 text-sm">
+          <a href="#start-campaign" class="text-white/80 hover:text-white">Start a Campaign</a>
+          <span class="text-white/30">•</span>
+          <a href="https://forms.gle/2yJ5fpkLmYgGSKxD6" target="_blank" rel="noopener" class="text-white/80 hover:text-white">Influencer Registration</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Sticky mobile CTA -->
+    <div class="fixed inset-x-0 bottom-0 z-40 border-t border-black/10 bg-white/95 px-4 py-3 shadow-2xl sm:hidden">
+      <div class="mx-auto flex max-w-7xl items-center justify-between gap-2">
+        <a href="#start-campaign" class="flex-1 rounded-full bg-brand-green px-4 py-3 text-center font-semibold text-black">Run a Campaign</a>
+        <a href="https://forms.gle/2yJ5fpkLmYgGSKxD6" target="_blank" rel="noopener" class="flex-1 rounded-full bg-white px-4 py-3 text-center font-semibold text-black border border-black/10">Influencer Registration</a>
+      </div>
+    </div>
+
+    <!-- Start Campaign Modal -->
+    <div id="start-campaign" class="invisible fixed inset-0 z-50 grid place-items-center opacity-0 transition">
+      <div class="absolute inset-0 bg-black/70" data-modal-close></div>
+      <div class="relative mx-4 w-full max-w-lg rounded-2xl border border-white/10 bg-brand-black p-6 text-white shadow-xl">
+        <button class="absolute right-3 top-3 rounded-md p-2 text-white/70 hover:text-white" aria-label="Close" data-modal-close>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"><path d="M6.225 4.811a1 1 0 10-1.414 1.414L10.586 12l-5.775 5.775a1 1 0 101.414 1.414L12 13.414l5.775 5.775a1 1 0 001.414-1.414L13.414 12l5.775-5.775a1 1 0 00-1.414-1.414L12 10.586 6.225 4.811z"/></svg>
+        </button>
+        <h3 class="text-2xl font-extrabold">Start a Campaign</h3>
+        <p class="mt-2 text-white/80 text-sm">Tell us a few details. We’ll get back within 24 hours.</p>
+        <form id="campaignForm" class="mt-6 space-y-4">
+          <div>
+            <label class="mb-1 block text-sm text-white/80" for="brand">Brand name</label>
+            <input id="brand" name="brand" required placeholder="Your brand" class="w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white placeholder-white/40 focus:border-brand-green focus:outline-none" />
+          </div>
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div>
+              <label class="mb-1 block text-sm text-white/80" for="name">Your name</label>
+              <input id="name" name="name" required placeholder="Jane Doe" class="w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white placeholder-white/40 focus:border-brand-green focus:outline-none" />
+            </div>
+            <div>
+              <label class="mb-1 block text-sm text-white/80" for="email">Work email</label>
+              <input id="email" name="email" type="email" required placeholder="you@brand.com" class="w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white placeholder-white/40 focus:border-brand-green focus:outline-none" />
+            </div>
+          </div>
+          <div>
+            <label class="mb-1 block text-sm text-white/80" for="budget">Approx. monthly budget</label>
+            <select id="budget" name="budget" class="w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white focus:border-brand-green focus:outline-none">
+              <option class="text-black">Under $2k</option>
+              <option class="text-black">$2k–$5k</option>
+              <option class="text-black">$5k–$15k</option>
+              <option class="text-black">$15k+</option>
+            </select>
+          </div>
+          <div>
+            <label class="mb-1 block text-sm text-white/80" for="goals">Campaign goals</label>
+            <textarea id="goals" name="goals" rows="3" placeholder="e.g., product launch awareness, UGC for ads, creator whitelisting" class="w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white placeholder-white/40 focus:border-brand-green focus:outline-none"></textarea>
+          </div>
+          <div class="flex flex-wrap items-center justify-between gap-3 pt-2">
+            <button type="submit" class="rounded-full bg-brand-green px-6 py-3 font-semibold text-black shadow hover:shadow-glow transition">Send details</button>
+            <a href="mailto:hello@infinic.media" class="text-sm text-white/70 hover:text-white">Prefer email? hello@infinic.media</a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      // Year in footer
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      // Animate hero counters (basic)
+      const animateCounters = () => {
+        document.querySelectorAll('[data-counter]').forEach(el => {
+          const targetText = el.getAttribute('data-counter');
+          const isPercent = /%$/.test(targetText);
+          const isX = /x$/.test(targetText);
+          const target = parseFloat(targetText);
+          let current = 0;
+          const steps = 28;
+          const inc = target / steps;
+          const timer = setInterval(() => {
+            current += inc;
+            const value = current >= target ? target : current;
+            el.textContent = (isX ? value.toFixed(1) + 'x' : (isPercent ? Math.round(value) + '%' : Math.round(value) + '+'));
+            if (current >= target) clearInterval(timer);
+          }, 30);
+        });
+      };
+      if (document.readyState !== 'loading') animateCounters();
+      else document.addEventListener('DOMContentLoaded', animateCounters);
+
+      // Modal open/close
+      const modal = document.getElementById('start-campaign');
+      const openLinks = document.querySelectorAll('a[href="#start-campaign"], #start-campaign-btn');
+      const closeModal = () => {
+        modal.classList.add('invisible','opacity-0');
+        modal.classList.remove('visible','opacity-100');
+        history.replaceState(null, '', '#');
+      };
+      const openModal = () => {
+        modal.classList.remove('invisible','opacity-0');
+        modal.classList.add('visible','opacity-100');
+        // set hash so deep links work
+        if (location.hash !== '#start-campaign') history.replaceState(null, '', '#start-campaign');
+      };
+      openLinks.forEach(link => link.addEventListener('click', (e) => {
+        if (link.getAttribute('href') === '#start-campaign') {
+          e.preventDefault();
+          openModal();
+        }
+      }));
+      modal.querySelectorAll('[data-modal-close]').forEach(btn => btn.addEventListener('click', closeModal));
+      window.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+      if (location.hash === '#start-campaign') openModal();
+
+      // Lightweight form handler -> compose email draft
+      const form = document.getElementById('campaignForm');
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const data = Object.fromEntries(new FormData(form).entries());
+        const subject = encodeURIComponent(`Campaign inquiry — ${data.brand}`);
+        const body = encodeURIComponent([
+          `Brand: ${data.brand}`,
+          `Name: ${data.name}`,
+          `Email: ${data.email}`,
+          `Budget: ${data.budget}`,
+          '',
+          `Goals:`,
+          data.goals || '—'
+        ].join('\n'));
+        // TODO: update the email address below to your operational inbox
+        window.location.href = `mailto:hello@infinic.media?subject=${subject}&body=${body}`;
+        setTimeout(closeModal, 300);
+      });
+    </script>
+  </body>
+</html>
+
